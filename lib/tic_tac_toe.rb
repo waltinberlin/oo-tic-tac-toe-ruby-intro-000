@@ -113,9 +113,8 @@ class TicTacToe
   def winner
     ret = won?
     if ret != false
-      return @board[ret[0]]
+      @board[ret[0]]
     end
-    false
   end
 
   def play
