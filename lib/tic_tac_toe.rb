@@ -122,7 +122,10 @@ class TicTacToe
     while over? == false
       turn
     end
-    puts "Congratulations X!"
+    if winner != false
+      puts "Congratulations X!"
+    else
+    end
   #  if winner == false
   #    puts "Draw"
   #  else
