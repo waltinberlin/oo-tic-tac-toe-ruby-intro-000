@@ -124,6 +124,8 @@ class TicTacToe
     end
     if winner == false
       puts "draw"
+    else
+      puts "Winner #{winner[0]}"
   end
 
 end
