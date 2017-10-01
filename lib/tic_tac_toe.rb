@@ -123,7 +123,7 @@ class TicTacToe
       turn
     end
     if winner != false
-      puts "Congratulations #{winner[0]}!"
+      puts "Congratulations #{@board[winner[0]]}!"
     else
     end
   #  if winner == false
