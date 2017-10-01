@@ -122,8 +122,7 @@ class TicTacToe
     while over? == false
       turn
     end
-    ret = winner
-    if ret != false
+    if winner != false
       puts "Congratulations #{winner}!" #{@board[winner[0]]}!"
     else
       puts "Draw"
