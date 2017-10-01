@@ -119,7 +119,6 @@ class TicTacToe
 
   def play
     puts "Please enter a number between 1 and 9:"
-    input = gets
     while over? == false
       turn
     end
