@@ -103,12 +103,14 @@ class TicTacToe
   # returns true for a draw'
   # returns true for a won game
   # returns false for an in-progress game
-    if draw? == true || won? != false #returns an array
+    if draw? == true || won? != false
       true
     else
       false
     end
   end
+
+  def winner
 
 
 end
