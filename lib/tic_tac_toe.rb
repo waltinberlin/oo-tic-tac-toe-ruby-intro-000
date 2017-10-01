@@ -124,7 +124,7 @@ class TicTacToe
     end
     ret = winner
     if ret != false
-      puts "Congratulations" #{@board[winner[0]]}!"
+      puts "Congratulations #{winner[0]}" #{@board[winner[0]]}!"
     else
       puts "Draw"
     end
