@@ -126,6 +126,7 @@ class TicTacToe
       puts "Draw"
     else
       puts "Congratulations #{winner[0]}"
+    end
   end
 
 end
