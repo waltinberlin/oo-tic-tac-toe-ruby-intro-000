@@ -115,7 +115,6 @@ class TicTacToe
     if ret != false
       @board[ret[0]]
     end
-    false
   end
 
   def play
